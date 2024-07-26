@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e7e9fa;
+}
+
+
+/* App.css */
+.custom-rate .ant-rate-star {
+    color: #fadb14; 
+  }
+  
+  .custom-rate .ant-rate-star-full {
+    color: #fadb14; 
+  }
+  
+  .custom-rate .ant-rate-star:hover, 
+  .custom-rate .ant-rate-star:hover .ant-rate-star {
+    color:  #e2e8f0; 
+  }
