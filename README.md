@@ -4,21 +4,13 @@
 
 Yêu cầu thách thức
 
--Thành phần này sẽ hiển thị danh sách tối đa 5 kỹ năng đã chọn trong một cột.
+-Thành phần Xếp hạng sao sẽ hiển thị một tập hợp các ngôi sao mà bạn có thể nhấp hoặc di chuột qua để chọn xếp hạng.
 
--Nếu danh sách không có đủ 5 kỹ năng đã chọn, thành phần sẽ hiển thị hộp nhập liệu ngay sau kỹ năng được chọn cuối cùng trong danh sách.
+-Thành phần này có thể tùy chỉnh, với tùy chọn thay đổi số lượng ngôi sao sẽ hiển thị.
 
--Hộp nhập liệu sẽ hiển thị các gợi ý khi người dùng nhập từ API hoặc dữ liệu được mã hóa cứng.
+-Khi người dùng nhấp vào ngôi sao để chọn xếp hạng, xếp hạng sẽ được cập nhật và một thông báo tương ứng sẽ hiển thị.
 
--Sau khi chọn một kỹ năng từ các gợi ý, kỹ năng được chọn sẽ được thêm vào danh sách các kỹ năng đã chọn.
-
--Thành phần này sẽ cho phép người dùng xóa kỹ năng đã chọn bằng cách nhấp vào nút xóa.
-
--Thành phần này sẽ cho phép người dùng sắp xếp lại các kỹ năng đã chọn bằng cách kéo và thả.
-
--Thành phần này cũng sẽ hiển thị một cột các kỹ năng được đề xuất bên cạnh danh sách.
-
--Người dùng có thể chọn một kỹ năng từ cột kỹ năng được đề xuất và thêm trực tiếp vào danh sách bằng cách nhấp vào kỹ năng đó.
+-Thành phần này phải đảm bảo rằng khi di chuột qua ngôi sao thứ ba sau khi chọn ngôi sao thứ tư thì chỉ làm nổi bật ngôi sao thứ nhất, thứ hai và thứ ba.
 
 -Hiển thị trạng thái di chuột của tất cả các phần tử.
 
